@@ -130,12 +130,12 @@ export const HomeHero = ({ onSelectRole, onOpenMemoryTest, t, tasks = [], profil
           <div className="hidden lg:flex w-full lg:w-1/2 relative justify-center lg:justify-end mt-12 lg:mt-0">
             
             <img
-              src="/images/hero_elder_tablet.svg"
+              src={`${import.meta.env.BASE_URL}images/hero_elder_tablet.svg`}
               alt="Elderly man using tablet"
               className="hidden lg:block w-full max-w-lg object-contain rounded-2xl relative z-0 min-h-[450px] bg-[#e2e8f0]/40 p-4"
               referrerPolicy="no-referrer"
               onError={(e) => {
-                e.currentTarget.src = "/images/hero_bento_elder.svg";
+                e.currentTarget.src = `${import.meta.env.BASE_URL}images/hero_bento_elder.svg`;
               }}
             />
             

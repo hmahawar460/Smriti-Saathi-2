@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 
-  base: "/",
+  base: "/Smriti-Saathi-2/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "."),
