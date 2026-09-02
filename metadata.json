@@ -1,0 +1,11 @@
+{
+  "name": "Remix Smriti-Saathi-2",
+  "description": "Smriti Saathi — Elderly-first AI cognitive gaming, memory assistance, family monitoring, and doctor analytics platform.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
