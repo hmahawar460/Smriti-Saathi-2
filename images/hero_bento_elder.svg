@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="warmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#BAE6FD" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bgGrad)" />
+
+  <!-- Ambient Light Circles -->
+  <circle cx="320" cy="100" r="140" fill="#3B82F6" opacity="0.3" filter="blur(40px)" />
+  <circle cx="80" cy="400" r="120" fill="#6366F1" opacity="0.25" filter="blur(40px)" />
+
+  <!-- Illustration Group -->
+  <g transform="translate(40, 60)">
+    <!-- Decorative Frame -->
+    <rect x="0" y="0" width="320" height="360" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.5" />
+
+    <!-- Elder Avatar / Figure -->
+    <g transform="translate(60, 40)">
+      <!-- Head & Hair -->
+      <circle cx="50" cy="50" r="34" fill="#CBD5E1" />
+      <circle cx="50" cy="54" r="30" fill="#FDE68A" />
+      <!-- Glasses -->
+      <circle cx="40" cy="52" r="9" fill="none" stroke="#1E293B" stroke-width="2.5" />
+      <circle cx="60" cy="52" r="9" fill="none" stroke="#1E293B" stroke-width="2.5" />
+      <line x1="49" y1="52" x2="51" y2="52" stroke="#1E293B" stroke-width="2.5" />
+      <!-- Smile -->
+      <path d="M 42 66 Q 50 74 58 66" fill="none" stroke="#B45309" stroke-width="2.5" stroke-linecap="round" />
+      <!-- Kurta / Clothes -->
+      <path d="M 16 100 Q 50 88 84 100 L 92 180 L 8 180 Z" fill="#F8FAFC" opacity="0.95" />
+    </g>
+
+    <!-- Caregiver Figure -->
+    <g transform="translate(160, 50)">
+      <!-- Head & Hair -->
+      <circle cx="50" cy="50" r="32" fill="#1E293B" />
+      <circle cx="50" cy="56" r="28" fill="#FCD34D" />
+      <path d="M 24 50 Q 50 30 76 50" fill="#1E293B" />
+      <!-- Gentle Smile -->
+      <path d="M 43 68 Q 50 74 57 68" fill="none" stroke="#92400E" stroke-width="2" stroke-linecap="round" />
+      <!-- Professional Scrub / Top -->
+      <path d="M 18 100 Q 50 92 82 100 L 90 170 L 10 170 Z" fill="#3B82F6" />
+    </g>
+
+    <!-- Interactive Tablet in Hands -->
+    <g transform="translate(55, 180)">
+      <rect x="0" y="0" width="210" height="135" rx="14" fill="#0F172A" stroke="#38BDF8" stroke-width="2" />
+      <rect x="8" y="8" width="194" height="119" rx="8" fill="url(#screenGrad)" />
+      
+      <!-- Cognitive Game Elements on Tablet Screen -->
+      <g transform="translate(20, 20)">
+        <rect x="0" y="0" width="36" height="36" rx="8" fill="#2563EB" />
+        <text x="18" y="24" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🧠</text>
+
+        <rect x="44" y="0" width="36" height="36" rx="8" fill="#10B981" />
+        <text x="62" y="24" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🌸</text>
+
+        <rect x="88" y="0" width="36" height="36" rx="8" fill="#F59E0B" />
+        <text x="106" y="24" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">✨</text>
+
+        <rect x="132" y="0" width="36" height="36" rx="8" fill="#8B5CF6" />
+        <text x="150" y="24" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">🎵</text>
+
+        <!-- Progress Bar -->
+        <rect x="0" y="52" width="168" height="10" rx="5" fill="#CBD5E1" />
+        <rect x="0" y="52" width="124" height="10" rx="5" fill="#2563EB" />
+
+        <text x="84" y="80" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle" fill="#1E293B">Cognitive Match: 95%</text>
+      </g>
+    </g>
+  </g>
+</svg>
